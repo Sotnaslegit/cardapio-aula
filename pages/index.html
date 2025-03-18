@@ -5,8 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../assets/images/inconfav.png">
     <title>Wilderfeast RPG</title>
+    <style>
+        @font-face {
+            font-family: titulo;
+            src: url(../assets/fonts/Hamston.ttf);
+        }
+        html, body{
+            padding: 0%;
+            margin: 0%;
+        }
+        nav{
+            background-color: #123142;
+            display: flex;
+            align-items: center;
+        }
+        #logo{
+            display: flex;
+            border-radius: 60px;
+            margin: 5px 5px 5px 20px;
+        }
+        label{
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: aliceblue;
+            font-size: large;
+            padding: 10px;
+        }
+        .click:hover{
+            cursor: pointer;
+        }
+        #navbar{
+            display: flex;
+            justify-content: center;
+        }
+        #imgs{
+            display: flex;
+            justify-content: space-evenly;
+            width: 15%;
+        }
+        #esquerda{
+            width: 15%;
+            display: flex;
+        }
+        #navbar{
+            width: 70%;
+            display: flex;
+        }
+        #content{
+            background-color: #f5fbff;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #quadrado{
+            display: flex;
+            border: #123142 5px solid;
+            width: 30%;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15% 0 5% 0;
+        }
+        #conteiner{
+            width: 100%;
+        }
+        footer{
+            background-color: #123142;
+        }
+        address{
+            color: gainsboro;
+        }
+        button{
+            background-color: #3B657A;
+            border: transparent;
+            color: #fff;
+            padding: 25px;
+            margin: 10px;
+            font-size: 25px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: #123142;
+        }
+        #preço{
+            background-color: #3B657A;
+            position: absolute;
+            color: yellow;
+            width: 20%;
+            text-align: center;
+            font-size: 45px;
+            padding: 3px 10px;
+
+        }
+        #livro{
+            margin-top: -200px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        span{
+            color: black;
+        }
+        p{
+            font-size: 20px;
+            margin: 0px 70px 25px 70px;
+        }
+        h1{
+            font-family: titulo;
+            color: orangered;
+            margin: 25px 0 10px 0;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="conteiner">
+    <nav>
+        <div id="esquerda">
+            
+        <img id="logo" width="60px" src="../assets/images/GUgWQ18XgAARcn-.jpg" alt="logo irada">
+        
+        </div>
+
+        <div id="navbar">
+            <label class="click">INICIO</label><label>|</label><label class="click">PRODUTOS</label><label>|</label><label class="click">DOWNLOADS</label><label>|</label><label class="click">CONTATO</label>
+        </div>
+        
+        <div id="imgs">
+            <div><img class="click" width="35px" src="../assets/images/solid_search_lupa_find-512 1.png" alt=""></div>
+            <div><img class="click" width="35px" src="../assets/images/126510 1.png" alt=""></div>
+        </div>
+    </nav>
+
+    <div id="content">
+
+        <div id="quadrado">
+            <div id="livro">
+            <img width="250px" src="../assets/images/inconfav.png" alt="">
+            <div id="preço"><span> R$ </span> 220,00</div>
+        </div>
+
+        <h1>Wilderfeast</h1>
+            
+            <p>Wilderfeast é um RPG sobre se tornar parte da natureza e fazer dela parte de você!
+                Neste mundo, os jogadores assumem o papel de Ferais: caçadores de monstros e cozinheiros, que impunham utensílios de cozinha gigantes e ganham mutações poderosas de cada monstros que eles comem! Usando esses poderes, eles buscam a harmonia entre a humanidade e o mundo selvagem.
+                Todas as criaturas, sejam elas humanos ou monstros, obedecem a única lei da Terra Una…  
+                Você é o que você come.</p>
+
+            <button>COMPRAR AGORA</button>
+        </div>
+    </div>
+
+    <footer>
+        <address>&copy;Todos os direitos reservados.</address>
+    </footer>
+</div>
+
 </body>
 </html>
